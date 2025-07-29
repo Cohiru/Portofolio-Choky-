@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+}
+.navbar2{
+    padding: 30px 0;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+}
+.navbar2 .menu{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.navbar2 .menu li{
+    list-style-type: none;
+}
+.navbar2 .menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+.navbar2 .menu li:hover a {
+    color: orange;
+}
+.kenalan2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.kenalan2{
+    margin-block: 30px;
+}
+.kenalan2 img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.kenalan2 h1{
+    margin-block: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+.kenalan2 h1 span{
+    font-weight: bold;
+    color: orange;
+}
+header svg {
+    margin-bottom: -10px;
+}
+.About {
+    background-color: white;
+    padding-block: 50px;
+}
+.About .container > h1 {
+    padding-block: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.About1 p {
+    font-weight: 500;
+}
+.About1 p span{
+    font-weight: bold;
+    color: orange;
+}
+
+#scrollUpBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  font-size: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#scrollUpBtn:hover {
+  background-color: orangered;
+}
